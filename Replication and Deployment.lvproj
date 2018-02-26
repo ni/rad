@@ -428,6 +428,9 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="CRI Get Remote cRIO Backplane Info.vi" Type="VI" URL="/../&lt;userlib&gt;/_CRI/CRI Get Remote cRIO Backplane Info.vi"/>
+			<Item Name="nisyscfg.dll" Type="Document" URL="nisyscfg.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="RAD Application" Type="EXE">
