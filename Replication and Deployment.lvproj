@@ -179,6 +179,8 @@
 					<Item Name="rad_Refresh Target Information.vi" Type="VI" URL="../subVIs/Targets/rad_Refresh Target Information.vi"/>
 					<Item Name="rad_Target Info Dialog.vi" Type="VI" URL="../subVIs/Targets/rad_Target Info Dialog.vi"/>
 					<Item Name="rad_WriteTargetConfigOptions.vi" Type="VI" URL="../subVIs/Targets/rad_WriteTargetConfigOptions.vi"/>
+					<Item Name="rad_Configure Discovery Settings Dialog.vi" Type="VI" URL="../subVIs/Targets/rad_Configure Discovery Settings Dialog.vi"/>
+					<Item Name="rad_Load Targets from File.vi" Type="VI" URL="../subVIs/Targets/rad_Load Targets from File.vi"/>
 				</Item>
 				<Item Name="TypeDefs" Type="Folder">
 					<Item Name="rad_State Data.ctl" Type="VI" URL="../subVIs/TypeDefs/rad_State Data.ctl"/>
@@ -319,6 +321,7 @@
 			</Item>
 			<Item Name="rad_config.ini" Type="Document" URL="../rad_config.ini"/>
 		</Item>
+		<Item Name="Force Include Target Types.vi" Type="VI" URL="../subVIs/Targets/Force Include Target Types.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
@@ -423,6 +426,16 @@
 				<Item Name="compatCalcOffset.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatCalcOffset.vi"/>
 				<Item Name="compatFileDialog.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatFileDialog.vi"/>
 				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
+				<Item Name="Is Path and Not Empty.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Is Path and Not Empty.vi"/>
+				<Item Name="Read Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet.vi"/>
+				<Item Name="Read Delimited Spreadsheet (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (DBL).vi"/>
+				<Item Name="Read Lines From File (with error IO).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Lines From File (with error IO).vi"/>
+				<Item Name="Open File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Open File+.vi"/>
+				<Item Name="Read File+ (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read File+ (string).vi"/>
+				<Item Name="Close File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Close File+.vi"/>
+				<Item Name="Find First Error.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find First Error.vi"/>
+				<Item Name="Read Delimited Spreadsheet (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (I64).vi"/>
+				<Item Name="Read Delimited Spreadsheet (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (string).vi"/>
 			</Item>
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -431,6 +444,8 @@
 			<Item Name="nisyscfg.dll" Type="Document" URL="nisyscfg.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="rad_Discovery Settings.ctl" Type="VI" URL="../subVIs/Targets/TypeDefs/rad_Discovery Settings.ctl"/>
+			<Item Name="rad_IP Address Validity Check.vi" Type="VI" URL="../subVIs/Targets/rad_IP Address Validity Check.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="RAD Application" Type="EXE">
