@@ -161,6 +161,7 @@
 						<Item Name="rad_Target Information.ctl" Type="VI" URL="../subVIs/Targets/TypeDefs/rad_Target Information.ctl"/>
 						<Item Name="rad_Target Network Settings.ctl" Type="VI" URL="../subVIs/Targets/TypeDefs/rad_Target Network Settings.ctl"/>
 						<Item Name="rad_Targets Settings.ctl" Type="VI" URL="../subVIs/Targets/TypeDefs/rad_Targets Settings.ctl"/>
+						<Item Name="rad_Discovery Settings.ctl" Type="VI" URL="../subVIs/Targets/TypeDefs/rad_Discovery Settings.ctl"/>
 					</Item>
 					<Item Name="rad_Add Target By IP Dialog.vi" Type="VI" URL="../subVIs/Targets/rad_Add Target By IP Dialog.vi"/>
 					<Item Name="rad_Apply Network Settings (DHCP).vi" Type="VI" URL="../subVIs/Targets/rad_Apply Network Settings (DHCP).vi"/>
@@ -179,6 +180,11 @@
 					<Item Name="rad_Refresh Target Information.vi" Type="VI" URL="../subVIs/Targets/rad_Refresh Target Information.vi"/>
 					<Item Name="rad_Target Info Dialog.vi" Type="VI" URL="../subVIs/Targets/rad_Target Info Dialog.vi"/>
 					<Item Name="rad_WriteTargetConfigOptions.vi" Type="VI" URL="../subVIs/Targets/rad_WriteTargetConfigOptions.vi"/>
+					<Item Name="rad_Configure Discovery Settings Dialog.vi" Type="VI" URL="../subVIs/Targets/rad_Configure Discovery Settings Dialog.vi"/>
+					<Item Name="rad_Load Targets from File.vi" Type="VI" URL="../subVIs/Targets/rad_Load Targets from File.vi"/>
+					<Item Name="Force Include Target Types.vi" Type="VI" URL="../subVIs/Targets/Force Include Target Types.vi"/>
+					<Item Name="rad_Filter Disconnected Targets.vi" Type="VI" URL="../subVIs/Targets/rad_Filter Disconnected Targets.vi"/>
+					<Item Name="rad_IP Address Validity Check.vi" Type="VI" URL="../subVIs/Targets/rad_IP Address Validity Check.vi"/>
 				</Item>
 				<Item Name="TypeDefs" Type="Folder">
 					<Item Name="rad_State Data.ctl" Type="VI" URL="../subVIs/TypeDefs/rad_State Data.ctl"/>
@@ -308,7 +314,7 @@
 					<Item Name="Set UnzipSelect File Date Time.vi" Type="VI" URL="../subVIs/Zip/Set UnzipSelect File Date Time.vi"/>
 					<Item Name="SetPathInZip.vi" Type="VI" URL="../subVIs/Zip/SetPathInZip.vi"/>
 					<Item Name="UnzipSelectFiles.vi" Type="VI" URL="../subVIs/Zip/UnzipSelectFiles.vi"/>
-					<Item Name="Open or Replace Zip File.vi" Type="VI" URL="../../rad_16_0_source/subVIs/Zip/Open or Replace Zip File.vi"/>
+					<Item Name="Open or Replace Zip File.vi" Type="VI" URL="../subVIs/Zip/Open or Replace Zip File.vi"/>
 				</Item>
 				<Item Name="rad_Button and Menu Status.vi" Type="VI" URL="../subVIs/rad_Button and Menu Status.vi"/>
 				<Item Name="rad_Globals.vi" Type="VI" URL="../subVIs/rad_Globals.vi"/>
@@ -423,17 +429,18 @@
 				<Item Name="compatCalcOffset.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatCalcOffset.vi"/>
 				<Item Name="compatFileDialog.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatFileDialog.vi"/>
 				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
-				<Item Name="nirioFlashWriteBitstream.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Targets/FPGA/RIO/nirioFlashTools.llb/nirioFlashWriteBitstream.vi"/>
-				<Item Name="nirioFlashEraseBitstream.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Targets/FPGA/RIO/nirioFlashTools.llb/nirioFlashEraseBitstream.vi"/>
-				<Item Name="_nirio_device_handleType.ctl" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Targets/FPGA/RIO/nirio_driverPrimitives.llb/_nirio_device_handleType.ctl"/>
-				<Item Name="_nirio_device_close.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Targets/FPGA/RIO/nirio_driverPrimitives.llb/_nirio_device_close.vi"/>
-				<Item Name="niFpgaBitfileGet_All.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Bitfile/Public/niFpgaBitfileGet_All.vi"/>
-				<Item Name="_nirioDeviceConnect.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Targets/FPGA/RIO/nirioFlashTools.llb/_nirioDeviceConnect.vi"/>
+				<Item Name="Is Path and Not Empty.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Is Path and Not Empty.vi"/>
+				<Item Name="Read From Spreadsheet File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File.vi"/>
+				<Item Name="Read From Spreadsheet File (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File (DBL).vi"/>
+				<Item Name="Read Lines From File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Lines From File.vi"/>
+				<Item Name="Open File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Open File+.vi"/>
+				<Item Name="Read File+ (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read File+ (string).vi"/>
+				<Item Name="Close File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Close File+.vi"/>
+				<Item Name="Find First Error.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find First Error.vi"/>
+				<Item Name="Read From Spreadsheet File (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File (I64).vi"/>
+				<Item Name="Read From Spreadsheet File (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File (string).vi"/>
 			</Item>
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="nisyscfg.dll" Type="Document" URL="nisyscfg.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="CRI Get Remote cRIO Backplane Info.vi" Type="VI" URL="/../&lt;userlib&gt;/_CRI/CRI Get Remote cRIO Backplane Info.vi"/>
