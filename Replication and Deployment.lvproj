@@ -314,7 +314,7 @@
 					<Item Name="Set UnzipSelect File Date Time.vi" Type="VI" URL="../subVIs/Zip/Set UnzipSelect File Date Time.vi"/>
 					<Item Name="SetPathInZip.vi" Type="VI" URL="../subVIs/Zip/SetPathInZip.vi"/>
 					<Item Name="UnzipSelectFiles.vi" Type="VI" URL="../subVIs/Zip/UnzipSelectFiles.vi"/>
-					<Item Name="Open or Replace Zip File.vi" Type="VI" URL="../../rad_16_0_source/subVIs/Zip/Open or Replace Zip File.vi"/>
+					<Item Name="Open or Replace Zip File.vi" Type="VI" URL="../../../original rad/rad/subVIs/Zip/Open or Replace Zip File.vi"/>
 				</Item>
 				<Item Name="rad_Button and Menu Status.vi" Type="VI" URL="../subVIs/rad_Button and Menu Status.vi"/>
 				<Item Name="rad_Globals.vi" Type="VI" URL="../subVIs/rad_Globals.vi"/>
