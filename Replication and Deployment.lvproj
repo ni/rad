@@ -322,6 +322,7 @@
 			</Item>
 			<Item Name="rad_config.ini" Type="Document" URL="../rad_config.ini"/>
 		</Item>
+		<Item Name="rad_Filter Disconnected Targets.vi" Type="VI" URL="../subVIs/Targets/rad_Filter Disconnected Targets.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
@@ -440,12 +441,12 @@
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="CRI Get Remote cRIO Backplane Info.vi" Type="VI" URL="/../&lt;userlib&gt;/_CRI/CRI Get Remote cRIO Backplane Info.vi"/>
 			<Item Name="nisyscfg.dll" Type="Document" URL="nisyscfg.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="rad_Discovery Settings.ctl" Type="VI" URL="../subVIs/Targets/TypeDefs/rad_Discovery Settings.ctl"/>
 			<Item Name="rad_IP Address Validity Check.vi" Type="VI" URL="../subVIs/Targets/rad_IP Address Validity Check.vi"/>
+			<Item Name="CRI Get Remote cRIO Backplane Info.vi" Type="VI" URL="/../&lt;userlib&gt;/_CRI/CRI Get Remote cRIO Backplane Info.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="RAD Application" Type="EXE">
