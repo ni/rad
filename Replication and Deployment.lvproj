@@ -161,6 +161,7 @@
 						<Item Name="rad_Target Information.ctl" Type="VI" URL="../subVIs/Targets/TypeDefs/rad_Target Information.ctl"/>
 						<Item Name="rad_Target Network Settings.ctl" Type="VI" URL="../subVIs/Targets/TypeDefs/rad_Target Network Settings.ctl"/>
 						<Item Name="rad_Targets Settings.ctl" Type="VI" URL="../subVIs/Targets/TypeDefs/rad_Targets Settings.ctl"/>
+						<Item Name="rad_Discovery Settings.ctl" Type="VI" URL="../subVIs/Targets/TypeDefs/rad_Discovery Settings.ctl"/>
 					</Item>
 					<Item Name="rad_Add Target By IP Dialog.vi" Type="VI" URL="../subVIs/Targets/rad_Add Target By IP Dialog.vi"/>
 					<Item Name="rad_Apply Network Settings (DHCP).vi" Type="VI" URL="../subVIs/Targets/rad_Apply Network Settings (DHCP).vi"/>
@@ -183,6 +184,7 @@
 					<Item Name="rad_Load Targets from File.vi" Type="VI" URL="../subVIs/Targets/rad_Load Targets from File.vi"/>
 					<Item Name="Force Include Target Types.vi" Type="VI" URL="../subVIs/Targets/Force Include Target Types.vi"/>
 					<Item Name="rad_Filter Disconnected Targets.vi" Type="VI" URL="../subVIs/Targets/rad_Filter Disconnected Targets.vi"/>
+					<Item Name="rad_IP Address Validity Check.vi" Type="VI" URL="../subVIs/Targets/rad_IP Address Validity Check.vi"/>
 				</Item>
 				<Item Name="TypeDefs" Type="Folder">
 					<Item Name="rad_State Data.ctl" Type="VI" URL="../subVIs/TypeDefs/rad_State Data.ctl"/>
@@ -444,8 +446,6 @@
 			<Item Name="nisyscfg.dll" Type="Document" URL="nisyscfg.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="rad_Discovery Settings.ctl" Type="VI" URL="../subVIs/Targets/TypeDefs/rad_Discovery Settings.ctl"/>
-			<Item Name="rad_IP Address Validity Check.vi" Type="VI" URL="../subVIs/Targets/rad_IP Address Validity Check.vi"/>
 			<Item Name="CRI Get Remote cRIO Backplane Info.vi" Type="VI" URL="/../&lt;userlib&gt;/_CRI/CRI Get Remote cRIO Backplane Info.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
