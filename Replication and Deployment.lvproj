@@ -182,6 +182,7 @@
 					<Item Name="rad_Configure Discovery Settings Dialog.vi" Type="VI" URL="../subVIs/Targets/rad_Configure Discovery Settings Dialog.vi"/>
 					<Item Name="rad_Load Targets from File.vi" Type="VI" URL="../subVIs/Targets/rad_Load Targets from File.vi"/>
 					<Item Name="Force Include Target Types.vi" Type="VI" URL="../subVIs/Targets/Force Include Target Types.vi"/>
+					<Item Name="rad_Filter Disconnected Targets.vi" Type="VI" URL="../subVIs/Targets/rad_Filter Disconnected Targets.vi"/>
 				</Item>
 				<Item Name="TypeDefs" Type="Folder">
 					<Item Name="rad_State Data.ctl" Type="VI" URL="../subVIs/TypeDefs/rad_State Data.ctl"/>
@@ -322,7 +323,6 @@
 			</Item>
 			<Item Name="rad_config.ini" Type="Document" URL="../rad_config.ini"/>
 		</Item>
-		<Item Name="rad_Filter Disconnected Targets.vi" Type="VI" URL="../subVIs/Targets/rad_Filter Disconnected Targets.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
