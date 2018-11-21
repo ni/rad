@@ -317,6 +317,7 @@
 				<Item Name="rad_RunTimeMenu.rtm" Type="Document" URL="../subVIs/rad_RunTimeMenu.rtm"/>
 				<Item Name="rad_Save Config.vi" Type="VI" URL="../subVIs/rad_Save Config.vi"/>
 				<Item Name="rad_Write Deployment Results to File.vi" Type="VI" URL="../subVIs/rad_Write Deployment Results to File.vi"/>
+				<Item Name="rad_Get Module Programming Modes.vi" Type="VI" URL="../subVIs/rad_Get Module Programming Modes.vi"/>
 			</Item>
 			<Item Name="rad_config.ini" Type="Document" URL="../rad_config.ini"/>
 		</Item>
