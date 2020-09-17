@@ -1,7 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="19008000">
+<Project Type="Project" LVVersion="14008000">
 	<Property Name="CCSymbols" Type="Str"></Property>
-	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Property Name="SMProvider.SMVersion" Type="Int">201310</Property>
 	<Item Name="My Computer" Type="My Computer">
@@ -423,7 +423,12 @@
 				<Item Name="compatCalcOffset.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatCalcOffset.vi"/>
 				<Item Name="compatFileDialog.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatFileDialog.vi"/>
 				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
-				<Item Name="Path to URL inner.vi" Type="VI" URL="/&lt;vilib&gt;/printing/PathToURL.llb/Path to URL inner.vi"/>
+				<Item Name="nirioFlashWriteBitstream.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Targets/FPGA/RIO/nirioFlashTools.llb/nirioFlashWriteBitstream.vi"/>
+				<Item Name="nirioFlashEraseBitstream.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Targets/FPGA/RIO/nirioFlashTools.llb/nirioFlashEraseBitstream.vi"/>
+				<Item Name="_nirio_device_handleType.ctl" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Targets/FPGA/RIO/nirio_driverPrimitives.llb/_nirio_device_handleType.ctl"/>
+				<Item Name="_nirio_device_close.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Targets/FPGA/RIO/nirio_driverPrimitives.llb/_nirio_device_close.vi"/>
+				<Item Name="niFpgaBitfileGet_All.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Bitfile/Public/niFpgaBitfileGet_All.vi"/>
+				<Item Name="_nirioDeviceConnect.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Targets/FPGA/RIO/nirioFlashTools.llb/_nirioDeviceConnect.vi"/>
 			</Item>
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -439,6 +444,7 @@
 				<Property Name="App_INI_GUID" Type="Str">{AA07335B-8AD4-48AC-937C-281A67E33F5C}</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{3BE514FF-1FF4-400A-A73A-71161C9C329F}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">RAD Application</Property>
+				<Property Name="Bld_compilerOptLevel" Type="Int">0</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">/C/Builds/RAD</Property>
@@ -509,10 +515,10 @@
 				<Property Name="Destination[3].tag" Type="Str">{3376BF9B-9AE9-41ED-ABCE-050647E35E81}</Property>
 				<Property Name="Destination[3].type" Type="Str">userFolder</Property>
 				<Property Name="DestinationCount" Type="Int">4</Property>
-				<Property Name="DistPart[0].flavorID" Type="Str">DefaultFull</Property>
-				<Property Name="DistPart[0].productID" Type="Str">{EE27B7AE-EC56-49EC-9153-7D4CE64EDCA2}</Property>
-				<Property Name="DistPart[0].productName" Type="Str">NI LabVIEW Runtime 2019 f2</Property>
-				<Property Name="DistPart[0].upgradeCode" Type="Str">{7D6295E5-8FB8-4BCE-B1CD-B5B396FA1D3F}</Property>
+				<Property Name="DistPart[0].flavorID" Type="Str"></Property>
+				<Property Name="DistPart[0].productID" Type="Str">{BFD30583-3F24-4A38-BC2E-91186A97BAB7}</Property>
+				<Property Name="DistPart[0].productName" Type="Str">NI LabVIEW Run-Time Engine 2014</Property>
+				<Property Name="DistPart[0].upgradeCode" Type="Str">{4722F14B-8434-468D-840D-2B0CD8CBD5EA}</Property>
 				<Property Name="DistPart[1].flavorID" Type="Str">DefaultFull</Property>
 				<Property Name="DistPart[1].productID" Type="Str">{9DAB9252-81A5-4578-A7EC-EC62002294D0}</Property>
 				<Property Name="DistPart[1].productName" Type="Str">NI System Configuration Runtime 16.0.0</Property>
@@ -525,12 +531,12 @@
 				<Property Name="INST_productName" Type="Str">NI Replication And Deployment Utility 16.0</Property>
 				<Property Name="INST_productVersion" Type="Str">16.0.0</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
-				<Property Name="InstSpecVersion" Type="Str">19008009</Property>
+				<Property Name="InstSpecVersion" Type="Str">14000000</Property>
 				<Property Name="MSI_arpCompany" Type="Str">National Instruments</Property>
 				<Property Name="MSI_arpPhone" Type="Str">800-433-3488</Property>
 				<Property Name="MSI_arpURL" Type="Str">http://www.ni.com/</Property>
 				<Property Name="MSI_distID" Type="Str">{52AD4A24-F514-43F7-9255-56027306A503}</Property>
-				<Property Name="MSI_osCheck" Type="Int">0</Property>
+				<Property Name="MSI_osCheck" Type="Int">4</Property>
 				<Property Name="MSI_upgradeCode" Type="Str">{D7F8FDD3-3404-4289-BF88-38D3D5725D82}</Property>
 				<Property Name="MSI_windowMessage" Type="Str">This installer will place the Replication And Deployment Utility in the National Instruments folder and add a shortcut to the Start Menu.</Property>
 				<Property Name="MSI_windowTitle" Type="Str">Welcome to the NI Replication And Deployment Utility Installer</Property>
